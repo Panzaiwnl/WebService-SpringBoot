@@ -22,7 +22,7 @@ public class Order {
 
     private Instant moment;
 
-    private OrderStatus orderStatus;
+    private Integer orderStatus;
 
 
     @ManyToOne
